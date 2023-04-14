@@ -1,0 +1,32 @@
+# User log in
+# ---
+# tags:
+#     Authentication
+
+# parameters:
+# name: body
+# description: the body should contain the user login credentials
+# in: body
+# required: true
+# schema:
+# type: object
+# required:
+# 'email'
+# 'password'
+# properties:
+# email:
+# type: 'email'
+# example: 'user@gmail.com'
+# password: 
+# type: 'password'
+# example: '*******'
+
+# responses:
+# 200:
+# decription: Request is successful
+# 400:
+# description: Fails to login due to bad request
+# 404:
+# description: Request not found coz it does not exist
+
+

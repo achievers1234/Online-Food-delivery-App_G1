@@ -1,0 +1,18 @@
+An online food delivery application can be a restaurant or an aggregator application.
+A restuarant app is managed by one restaurant and it belongs to a particular restaurant which helps it to market the products and also create additional sources of revenue.
+
+A customer must be able to choose any category of food items and set an order and the location for delivery and also see the order status.
+
+Status codes
+400 =>bad request; a user misses required parameters, invalid data types.
+401 => unauthorised; a user is not authenticated.
+404 => not found; a user puts a request does not exist in the server.
+409 => conflict; a user puts a resources that already exists.
+200 => ok; request is successful.
+201 => ok; a resource has been successful created.
+
+
+
+
+
+
